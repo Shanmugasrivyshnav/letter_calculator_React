@@ -1,0 +1,55 @@
+/* Write your code here. */
+.letter-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #93f9b9;
+  justify-content: center;
+  padding: 20px;
+  font-family: Robot;
+}
+.calculator-container {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 40px;
+}
+.description {
+  color: #ffffff;
+  font-size: 20px;
+}
+.search-input {
+  outline: none;
+  background: transparent;
+  width: 300px;
+  height: 40px;
+}
+.image-container {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.img-calculator {
+  width: 300px;
+  height: 200px;
+}
+.search-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #1d976c;
+  width: 300px;
+  height: 40px;
+}
+.result-heading {
+  font-size: 30px;
+}
